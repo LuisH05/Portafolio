@@ -3,7 +3,7 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Home', href: '#', current: false },
+  { name: 'Home', href: '#', current: true },
   { name: 'About', href: '#', current: false },
   { name: 'Projects', href: '#', current: false },
   { name: 'Contact', href: '#', current: false },
@@ -48,7 +48,7 @@ export default function Example() {
                         key={item.name}
                         href={item.href}
                         className={classNames(
-                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-[#03CC90] hover:text-white',
+                          item.current ? 'bg-[#03CC90] text-white' : 'text-gray-300 hover:bg-[#03CC90] hover:text-white',
                           'rounded-md px-3 py-2 text-ellipsis font-bold'
                         )}
                         aria-current={item.current ? 'page' : undefined}
