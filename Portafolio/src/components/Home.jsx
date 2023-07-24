@@ -8,14 +8,14 @@ export default function Home() {
       {/* container */}
 
       <div className="flex justify-around pt-5 bg-[#353849]">
-        <div className="pb-2 pt-10 xsm:pb-10 xsm:pt-20 md:pb-10 md:pt-40">
+        <div className=" pt-10 xsm:pb-10 xsm:pt-20 md:pb-10 md:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
             
               <h1 className="text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
                 Hola soy Luis, Desarrollador Web Full Stack M.E.R.N.
               </h1>
-              <p className="mt-8 text-xl text-[#FFFFFF]">
+              <p className="mt-12 text-xl text-[#FFFFFF]">
                 Como Desarrollador Full-Stack en tecnologías de desarrollo
                 front-end, como HTML, CSS, JavaScript, React y Redux, así como
                 en tecnologías de desarrollo back-end, como Node.js, Express y
@@ -23,28 +23,21 @@ export default function Home() {
               </p>
             </div>
             <div className='flex pt-20 pb-10 justify-around '>
-      <a href=''>
-        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="40" fill="currentColor" className="bi bi-github bg-[#03CC90] rounded-md" viewBox="0 0 16 16">
-          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>  
-        </svg>
-      </a>
-      <a href=''>
-      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" className="bi bi-linkedin bg-[#03CC90] rounded-md" viewBox="0 0 16 16">
-        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-      </svg>
-      </a>
-      <a href=''>
-      <svg xmlns="http://www.w3.org/2000/svg" width="48" height="40" fill="currentColor" className="bi bi-envelope-at-fill bg-[#03CC90] rounded-md" viewBox="0 0 16 16">
-        <path d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"/>
-        <path d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"/>
-</svg>
-      </a>
-      </div>
+              <a href='https://github.com/LuisH05' target='_blank' className='bg-[#03CC90] rounded-md hover:bg-black'>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAvxJREFUaEPtmW1OHDEMhu2TtJyEcpKWkxROApykcJLSk7h6RwkKib+SmV200o602j+TOI/t+GuYLvzhCz8/XQG+2oKHWUBEvhPRTyLCf/t7L5D4r783Zn49An4XQHPoX+XQM2cCzDMRvTBzhZxZv727DCAiv4noYVriuGADYebHlb2mAUTkBxH9WREWrFkCmQIQEbjK0wkO3275MGONNICI4OAAOMfzysx3GUEpABGBy8B1zvngXtxHAkOAM7mNdc7QnVwA58IihiNq3Ba3QtxfeWoofSt7aVHtnpkRbtUnAvhrxPe7moiaXNALr0mrCu5d8JN2yz6Q1z/vzHwzDeC5DjMP4OUAsAQEqompvmNlYRER46DmfTAtICKW9kkDWPGffo0jEwqB1QfFqACJi3uzJ/1bsI4FsES90BZAFDY/7sARmsceiQyv3gULwPJFyEonmVm4RLIcFKddxqhcOFz7FdSJRPWVwY00AK9kOJn2GwjPfQf5swCp9D7rOu37QZmeAvA04GbFPQdvLOCV68NF1ixgxn8iuniAsLjaa4UoB/VJVLOA50JfDZByIQ/ALaz2ar8ktKkoqFkgatZPlgcKgJdEhyioAURN+8lCaWLSMQQRqyzW6vLqIagIH70mY8WVErUQth2KyNVibmkE4lSh6CM8pW1LtTLeAujdqHZXfVdVJ2tLY0Knm9NY1RxkAUAjiEa11938vghElOhBAAgI9LZI9+aosMT5b2WP9KTDaqK8jqyvSrcQ6kBAa26YDdZ6V8fMPx4AtN9ru7VEa6EqPCw1kpe1hVlr6ktM1i7XlgeKNpEzqhukJs2Jmr+3hJt3VgZbu3uCoPdtAcLSJQQoluizc7ix59BJgJSiUgAGRJ2q/StfXm6zU+UEQDrbpwEMiF7RqXHLyvjEsugUQHOxtVygpnpNsAEAiyKKTSXFaYAGAh/0+m9jKxbYVZYsATT9K8IswihgUKukPkqU+Q/WLX8bq2fYBbBSdR695gpwtEZn97taYFZjR7//Hy5Ak0Bchgj3AAAAAElFTkSuQmCC"/>
+              </a>
+              <a href='https://www.linkedin.com/in/luisherdez/' target='_blank' className='bg-[#03CC90] rounded-md hover:bg-black'>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAapJREFUaEPtmettwzAMhI+bNJO0maTJJE0maTZpOkmyCYsr7MIVRD9SupQB6k+AwJb48cyHJMHGh2zcfiRAtIKpQLMKqOoLgHcAT8FG3gEcReRas8P8hFT1AwAhWhh3EdktBdAWLO9tEJGqs8cUSABPBT0VOInIWVUZ3K8ATp6GWnN5ATAbXIaLqOqhy1arcrgA1CbplLitaj0ADwAzlanq6gHvAUAnb/sTAsCqeGEQk6ar1ix4qw8vBXpDCfKvLYY3wOoeLxfwAmAKpfeHg/3SsGeq1YX+P77Lz4+//Tx89xkA07E5vAAmg9hItUyz57KGFPXkbawoRgMcxozvQVTVhAgFmBswY0WxGQAaKSJlHP0wWvuQcICiZ/pVT+bEQiiAUfCqrYnVHEYDWMG5L/e6rQLwcKCW5zcPMFlXvPfEkwsahcxSYHK+BCiK0KTHUgFjjx2dRjMGUoEumLmh+SwCu9yMHCvdJw/AagfFc+b7ns5LgbmdsftzCeDu0oUTPqJASxccVxHZ15jH7gcYdGyDo29pHrtiWqhw2ON5zRrm+m7hVCAV+KMHvgAukZtAIFYx0QAAAABJRU5ErkJggg=="/>
+              </a>
+              <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='_blank' className='bg-[#03CC90] rounded-md hover:bg-black'>
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAeVJREFUaEPtWIltwzAMJDdpJmkzSZtJmk7SZJJmk6aTsLhANmSbMmVL8hNIQIAAtqi744mixbTzwTvHT5XA2hmsGagZSFSgWihRwOTpz5kBEXkhom8ienMSXYjoysy3ZMkiArj134noTER39zsxM/53xiADbvJvYJ0zM39FYJj9ioh8OPH6MQD+2CehEYDyCBIayIKqxmzUbqKI/HhZ18JdmPnkP9AIQH1YaGxADZDIYinFsqG178x8sAhIpJIgAUWSLDViGRUGM3dE1zIQS6BZYLalIiwzIFGCABaZZClnGfjdsupiBBoSpqVE5NOVx0in9spmAQv1gaiWmrBRR4mVspBWs9sqlWKZfuClCLSWcgBwomYZSxLIAnjNDFQCmgK5LIS6P7mGR7QnZsxcBI5E9JpSz3tk0K6jJQl1we3ruQgc0NamHkoOFVrkm9HGlyGAqAk1vtN+rEbAI9F8QcVUn0FfvyqBBnGkpXBCw/OdsQkChqVGO9bNEAhYamCZzWbAB+Ys9adZZhcEYnazt39wiC17DkwBaL27qT1ggdWeVwKeF2NuJR6txBylQ3NyZsC6mQOGtQhE3cyhGlhtwdIEHhe8zIwuuDOe83o9p7dLx6oZKK2wFb9mwFKo9POagdIKW/H/AZZJL0BeaRwrAAAAAElFTkSuQmCC"/>
+              </a>
+            </div>
             <div>
               <div className="mt-12">
                 <a
                   href="#"
-                  className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#232734] hover:text-white"
+                  className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white"
                 >
                   MORE ABOUT ME
                 </a>
