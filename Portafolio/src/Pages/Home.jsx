@@ -35,12 +35,12 @@ export default function Home() {
             </div>
             <div>
               <div className="mt-12">
-                <a
+                <button
                   href="#"
                   className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white"
                 >
                   MORE ABOUT ME
-                </a>
+                </button>
               </div>
             </div>
           </div>
