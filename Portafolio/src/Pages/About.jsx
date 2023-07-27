@@ -1,10 +1,23 @@
 import React from 'react'
 import { Link as Anchor } from 'react-router-dom';
-
+import { useEffect, useState } from 'react';
 export default function About() {
+
+  const [isMounted, setIsMounted] = useState(false);
+
+
+  useEffect(() => {
+  
+    setIsMounted(true);
+      }, []);
+    
+
+
+
   return (
     <>
-      <h1 className="flex justify-center mt-10  text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
+    <div className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
+      <h1 className= 'flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl' >
         About Me
       </h1>
       <div className="flex items-center justify-center mt-20 xsm:hidden xxsm:hidden space-x-6 lg:space-x-8">
@@ -27,6 +40,7 @@ export default function About() {
           className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white">
           My Projects
         </Anchor>
+      </div>
       </div>
     </>
   )

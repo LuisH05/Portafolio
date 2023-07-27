@@ -1,10 +1,17 @@
 import React from 'react'
 import { Link as Anchor } from 'react-router-dom';
+import { useEffect, useState } from 'react';
 
 
 export default function Home() {
+  const [isMounted, setIsMounted] = useState(false);
+  useEffect(() => {
+  
+    setIsMounted(true);
+      }, []);
+
   return (
-    <div name="home" className="">
+    <div name="home" className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
       {/* container */}
 
       <div className="flex justify-around pt-5 bg-[#353849]">
