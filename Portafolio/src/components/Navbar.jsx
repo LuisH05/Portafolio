@@ -1,20 +1,23 @@
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Link as Anchor } from 'react-router-dom';
+import { Link as Anchor, useLocation } from 'react-router-dom';
 
 
-const navigation = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'About', href: '/about', current: false },
-  { name: 'Projects', href: '/project', current: false },
-  { name: 'Contact', href: '#', current: false },
-]
 
-function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
-}
 
 export default function Example() {
+  const location = useLocation();
+
+  const navigation = [
+    { name: 'Home', href: '/', current: location.pathname === '/'},
+    { name: 'About', href: '/about', current: location.pathname === '/about' },
+    { name: 'Projects', href: '/project', current: location.pathname === '/project' },
+    { name: 'Contact', href: '#', current: false },
+  ]
+  
+  function classNames(...classes) {
+    return classes.filter(Boolean).join(' ')
+  }
   return (
     <Disclosure as="nav" className="bg-[#232734]">
       {({ open }) => (
