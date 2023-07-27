@@ -33,7 +33,6 @@ export default function Home() {
               <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAeVJREFUaEPtWIltwzAMJDdpJmkzSZtJmk7SZJJmk6aTsLhANmSbMmVL8hNIQIAAtqi744mixbTzwTvHT5XA2hmsGagZSFSgWihRwOTpz5kBEXkhom8ienMSXYjoysy3ZMkiArj134noTER39zsxM/53xiADbvJvYJ0zM39FYJj9ioh8OPH6MQD+2CehEYDyCBIayIKqxmzUbqKI/HhZ18JdmPnkP9AIQH1YaGxADZDIYinFsqG178x8sAhIpJIgAUWSLDViGRUGM3dE1zIQS6BZYLalIiwzIFGCABaZZClnGfjdsupiBBoSpqVE5NOVx0in9spmAQv1gaiWmrBRR4mVspBWs9sqlWKZfuClCLSWcgBwomYZSxLIAnjNDFQCmgK5LIS6P7mGR7QnZsxcBI5E9JpSz3tk0K6jJQl1we3ruQgc0NamHkoOFVrkm9HGlyGAqAk1vtN+rEbAI9F8QcVUn0FfvyqBBnGkpXBCw/OdsQkChqVGO9bNEAhYamCZzWbAB+Ys9adZZhcEYnazt39wiC17DkwBaL27qT1ggdWeVwKeF2NuJR6txBylQ3NyZsC6mQOGtQhE3cyhGlhtwdIEHhe8zIwuuDOe83o9p7dLx6oZKK2wFb9mwFKo9POagdIKW/H/AZZJL0BeaRwrAAAAAElFTkSuQmCC"/>
               </Anchor>
             </div>
-            <div>
               <div className="mt-12">
                 <Anchor
                   to="/about"
@@ -42,7 +41,6 @@ export default function Home() {
                   MORE ABOUT ME
                 </Anchor>
               </div>
-            </div>
           </div>
         </div>
         <div className="flex items-center xsm:hidden xxsm:hidden space-x-6 lg:space-x-8">
