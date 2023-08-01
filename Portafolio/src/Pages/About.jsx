@@ -34,12 +34,18 @@ export default function About() {
           Me caracterizo por ser un apoyo para el equipo de trabajo desde el comienzo hasta el final de los proyectos. <br />
           Me considero una persona con alta adaptabilidad y altamente comprometido con las metas propuestas, mi objetivo es capacitarme cada día para ser uno de los mejores desarrolladores web y ser la persona idónea para desempeñar cargos de alta responsabilidad.</p>
       </div>
-      <div className="flex justify-center mt-20">
+      <div className="flex justify-evenly mt-20">
         <Anchor
           to="/project"
           className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white">
           My Projects
         </Anchor>
+
+        <a
+          href="./LuisHernandezCV.pdf" download={'LuisHernandezCV.pdf'}
+          className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white">
+          Descargar CV
+        </a>
       </div>
       </div>
     </>
