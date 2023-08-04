@@ -59,8 +59,7 @@ export default function Project() {
             <p className="text-white max-w-6xl">
               Minga es una pagina desarrollada para la lectura y creacion de
               mangas, una Web desarrollada en equipo, utilizando la
-              metodología de trabajo AGILE, organizando y distribuyendo tareas
-              en Trello. aplicando diferentes tecnologias para el buen
+              metodología de trabajo AGILE, aplicando diferentes tecnologias para el buen
               funcionamiento de la App, tanto desde el lado de Front-end y
               Back-end.
             </p>

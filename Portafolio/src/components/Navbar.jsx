@@ -12,7 +12,7 @@ export default function Example() {
     { name: 'Home', href: '/', current: location.pathname === '/'},
     { name: 'About', href: '/about', current: location.pathname === '/about' },
     { name: 'Projects', href: '/project', current: location.pathname === '/project' },
-    { name: 'Contact', href: '#', current: false },
+    { name: 'Technologies', href: '/technologie', current: location.pathname === '/techonologie' },
   ]
   
   function classNames(...classes) {
