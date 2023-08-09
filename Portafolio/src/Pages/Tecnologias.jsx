@@ -12,12 +12,14 @@ export default function Tecnologias() {
         <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-20'>
           Front-End
         </h3>
-        <div className='flex justify-around mt-16 bg-white rounded-md h-16 items-center'>
-        <FontAwesomeIcon icon={faHtml5}  size='3x' style={{ color: "#ffa200" }} title="HTML5" />
+        <div className='flex justify-around mt-14 '>
+        <FontAwesomeIcon icon={faHtml5}  size='3x' style={{ color: "#ffa200" }} title="HTML5"/>
         <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#0d65fd"}} title="CSS3" />
         <FontAwesomeIcon icon={faJs} size= '3x' style={{color: "#ffea00"}} title="JavaScript" />
         <FontAwesomeIcon icon={faReact} size='3x' style={{color: "#00e1ff"}} title="React" />
         <FontAwesomeIcon icon={faBootstrap} size='3x' style={{color: "#4702e8"}} title="Bootstrap" />
+        <img src='https://i.postimg.cc/R0ZgHXBT/Tailwind-CSS-Logo-svg.png' className='w-14' title='Tailwind' />
+        <img src='https://www.svgrepo.com/show/303557/redux-logo.svg' className='w-12' title='Redux' />
       </div>
     </>
   );
