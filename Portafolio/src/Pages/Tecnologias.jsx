@@ -1,7 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faNode } from '@fortawesome/free-brands-svg-icons';
-// import '@fortawesome/fontawesome-svg-core/styles.css';
+import { faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faNode,faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Tecnologias() {
   return (
@@ -12,7 +11,7 @@ export default function Tecnologias() {
         <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-20'>
           Front-End
         </h3>
-        <div className='flex justify-around mt-14 '>
+        <div className='flex justify-evenly mt-14 '>
         <FontAwesomeIcon icon={faHtml5}  size='3x' style={{ color: "#ffa200" }} title="HTML5"/>
         <FontAwesomeIcon icon={faCss3Alt} size="3x" style={{color: "#0d65fd"}} title="CSS3" />
         <FontAwesomeIcon icon={faJs} size= '3x' style={{color: "#ffea00"}} title="JavaScript" />
@@ -21,14 +20,21 @@ export default function Tecnologias() {
         <img src='https://i.postimg.cc/R0ZgHXBT/Tailwind-CSS-Logo-svg.png' className='w-14' title='Tailwind' />
         <img src='https://www.svgrepo.com/show/303557/redux-logo.svg' className='w-12' title='Redux' />
         </div>
-        <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-20'>
+        <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-28'>
           Back-End
         </h3>
-        <div className='flex justify-around mt-14 '>
+        <div className='flex justify-evenly mt-16 '>
         <FontAwesomeIcon icon={faJs} size= '3x' style={{color: "#ffea00"}} title="JavaScript" />
         <FontAwesomeIcon icon={faNode} size='3x' style={{color: "#4eb521",}} title='NodeJs' />
         <img src='https://i.postimg.cc/ryKBDGCT/mongodb-svgrepo-com.png' className='w-14' title='MongoDB' />
-        <img src='https://www.nextontop.com/assets/img/services/web/expressjs.svg' className='w-20 bg-white rounded-lg' title='ExpressJs' />
+        <img src='https://www.nextontop.com/assets/img/services/web/expressjs.svg' className='w-20 bg-white rounded-lg' title='Express' />
+        </div>
+        <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-28'>
+          Otras Herramientas
+        </h3>
+        <div className='flex justify-evenly mt-16 '>
+        <FontAwesomeIcon icon={faGithub} size='3x' style={{color: "#000000",}} />
+        
         </div>
     </>
   );
