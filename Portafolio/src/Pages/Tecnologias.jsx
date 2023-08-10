@@ -33,8 +33,8 @@ export default function Tecnologias() {
           Otras Herramientas
         </h3>
         <div className='flex justify-evenly mt-16 '>
-        <FontAwesomeIcon icon={faGithub} size='3x' style={{color: "#000000",}} />
-        
+        <FontAwesomeIcon icon={faGithub} size='3x' style={{color: "#000000",}} title='GitHub'/>
+        <img src='https://i.postimg.cc/LsyFYrpD/postman-icon-svgrepo-com.png' className='w-12' title='Postman' />
         </div>
     </>
   );
