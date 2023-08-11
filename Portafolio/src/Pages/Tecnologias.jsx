@@ -23,7 +23,7 @@ export default function Tecnologias() {
         <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-28'>
           Back-End
         </h3>
-        <div className='flex justify-evenly mt-16 '>
+        <div className='flex justify-evenly mt-14 '>
         <FontAwesomeIcon icon={faJs} size= '3x' style={{color: "#ffea00"}} title="JavaScript" />
         <FontAwesomeIcon icon={faNode} size='3x' style={{color: "#4eb521",}} title='NodeJs' />
         <img src='https://i.postimg.cc/ryKBDGCT/mongodb-svgrepo-com.png' className='w-14' title='MongoDB' />
@@ -32,9 +32,11 @@ export default function Tecnologias() {
         <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-28'>
           Otras Herramientas
         </h3>
-        <div className='flex justify-evenly mt-16 '>
+        <div className='flex justify-evenly mt-14 '>
         <FontAwesomeIcon icon={faGithub} size='3x' style={{color: "#000000",}} title='GitHub'/>
         <img src='https://i.postimg.cc/LsyFYrpD/postman-icon-svgrepo-com.png' className='w-12' title='Postman' />
+        <img src='https://i.postimg.cc/XYvL9tgD/figma-1-logo.png' className='w-16' title='Figma' />
+        <img src='https://i.postimg.cc/63Ry7V1p/vscode-svgrepo-com.png' className='w-12' title='VSC' />
         </div>
     </>
   );
