@@ -31,7 +31,7 @@ export default function Home() {
                 MongoDB.
               </p>
             </div>
-            <div className='flex pt-20 pb-10 justify-around '>
+            <div className='flex pt-20 pb-10 justify-around'>
               <Anchor to='https://github.com/LuisH05' target='_blank' className=''>
               <img src="https://i.postimg.cc/sx93pTrw/github-142-svgrepo-com.png" className='w-16'/>
               </Anchor>
@@ -39,7 +39,7 @@ export default function Home() {
               <img src="https://i.postimg.cc/6p8XMWVk/linkedin-svgrepo-com.png"  className='w-16'/>
               </Anchor>
               <Anchor to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='_blank' className='w-16'>
-              <img src="https://i.postimg.cc/XqYq2MYp/gmail-svgrepo-com.png"/>
+              <img src="https://i.postimg.cc/RVTH9zYp/gmail-svgrepo-com-3.png"/>
               </Anchor>
             </div>
               <div className="mt-12">
