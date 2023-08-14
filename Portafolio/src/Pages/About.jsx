@@ -5,15 +5,10 @@ export default function About() {
 
   const [isMounted, setIsMounted] = useState(false);
 
-
   useEffect(() => {
-  
     setIsMounted(true);
       }, []);
     
-
-
-
   return (
     <>
     <div className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>

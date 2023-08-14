@@ -2,9 +2,6 @@ import { Disclosure} from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link as Anchor, useLocation } from 'react-router-dom';
 
-
-
-
 export default function Example() {
   const location = useLocation();
 

@@ -1,9 +1,6 @@
 import React from 'react'
 import { Link as Anchor } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  } from '@fortawesome/free-brands-svg-icons';
-
 
 export default function Home() {
   const [isMounted, setIsMounted] = useState(false);
@@ -56,7 +53,6 @@ export default function Home() {
           <img className="h-96 w-96 rounded-full ring-2 ring-[#03CC90]" src="https://i.postimg.cc/7ZYd01Xp/Luis-Hernandez.png" alt="" />
         </div>
       </div>
-      
     </div>
   );
 }

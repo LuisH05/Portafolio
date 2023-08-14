@@ -5,7 +5,6 @@ import Home from "../App.jsx";
 import Project from "../Pages/Project.jsx";
 import Tecnologias from "../Pages/Tecnologias.jsx";
 
-
 const routers = createBrowserRouter([
     {
         path:'/', element: <Layout />,
