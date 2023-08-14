@@ -18,9 +18,6 @@ module.exports = {
       primary: "#222",
       secundary: "#fff",
       acento: "#222",
-
-      btn1:'#F9A8D4',
-      btn2:'#F472B6',
     },
   
       fontFamily: {
