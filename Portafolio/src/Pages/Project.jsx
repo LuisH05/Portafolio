@@ -5,9 +5,9 @@ export default function Project() {
   return (
     <>
     <h1 className="flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
-          My Projects
+          Mis Proyectos
         </h1>
-      <div className="flex w-full">
+      <div className="flex w-full xsm:flex-wrap xxsm:flex-wrap">
         <div className="flex flex-col items-center mt-20">
           <img
             src="https://i.postimg.cc/zBDZ7VBL/Game-Zone-foto.png"
@@ -31,7 +31,7 @@ export default function Project() {
               <a
                 href="https://game-zone-front.vercel.app/"
                 target="_blank"
-                className="inline-block rounded-md border border-transparent bg-[#03CC90] px-6 py-2 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white pt"
+                className="xxsm:mr-6 inline-block rounded-md border border-transparent bg-[#03CC90] px-6 py-2 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white pt"
               >
                 Web
               </a>
@@ -67,7 +67,7 @@ export default function Project() {
               <Anchor
                 to="https://minga-verde-front.vercel.app/"
                 target="_blank"
-                className="inline-block rounded-md border border-transparent bg-[#03CC90] px-6 py-2 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white pt"
+                className="xxsm:mr-6 inline-block rounded-md border border-transparent bg-[#03CC90] px-6 py-2 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white pt"
               >
                 Web
               </Anchor>

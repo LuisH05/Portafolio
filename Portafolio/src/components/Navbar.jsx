@@ -6,10 +6,10 @@ export default function Example() {
   const location = useLocation();
 
   const navigation = [
-    { name: 'Home', href: '/', current: location.pathname === '/'},
-    { name: 'About', href: '/about', current: location.pathname === '/about' },
-    { name: 'Projects', href: '/project', current: location.pathname === '/project' },
-    { name: 'Technologies', href: '/technologie', current: location.pathname === '/techonologie' },
+    { name: 'Inicio', href: '/', current: location.pathname === '/'},
+    { name: 'Sobre Mi', href: '/sobre-mi', current: location.pathname === '/sobre-mi' },
+    { name: 'Proyectos', href: '/proyectos', current: location.pathname === '/proyectos' },
+    { name: 'Tecnologias', href: '/tecnologias', current: location.pathname === '/tecnologias' },
   ]
   
   function classNames(...classes) {
@@ -74,7 +74,7 @@ export default function Example() {
                   as="a"
                   href={item.href}
                   className={classNames(
-                    item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                    item.current ? 'bg-[#03CC90] text-white' : 'text-gray-300 hover:bg[#03CC90] hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
                   aria-current={item.current ? 'page' : undefined}

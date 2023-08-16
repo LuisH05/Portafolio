@@ -13,7 +13,7 @@ export default function About() {
     <>
     <div className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
       <h1 className= 'flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl' >
-        About Me
+        Sobre Mi
       </h1>
       <div className="flex items-center justify-center mt-20 xsm:hidden xxsm:hidden space-x-6 lg:space-x-8">
           <img className="h-60 w-60 rounded-full ring-2 ring-[#03CC90]" src="https://i.postimg.cc/7ZYd01Xp/Luis-Hernandez.png" alt="" />
@@ -31,9 +31,9 @@ export default function About() {
       </div>
       <div className="flex justify-evenly mt-20">
         <Anchor
-          to="/project"
+          to="/proyectos"
           className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white">
-          My Projects
+          Mis Proyectos
         </Anchor>
 
         <a

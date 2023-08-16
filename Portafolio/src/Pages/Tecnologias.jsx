@@ -8,7 +8,7 @@ export default function Tecnologias() {
       <h1 className="flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
         Tecnologias
       </h1>
-        <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-20'>
+        <h3 className='flex justify-center text-2xl font-bold tracking-tight text-[#FFFFFF] xsm:text-2xl mt-20'>
           Front-End
         </h3>
         <div className='flex justify-evenly mt-14 '>
@@ -20,7 +20,7 @@ export default function Tecnologias() {
         <img src='https://i.postimg.cc/R0ZgHXBT/Tailwind-CSS-Logo-svg.png' className='w-14' title='Tailwind' />
         <img src='https://www.svgrepo.com/show/303557/redux-logo.svg' className='w-12' title='Redux' />
         </div>
-        <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-28'>
+        <h3 className='flex justify-center text-2xl font-bold tracking-tight text-[#FFFFFF] xsm:text-2xl mt-28'>
           Back-End
         </h3>
         <div className='flex justify-evenly mt-14 '>
@@ -29,10 +29,10 @@ export default function Tecnologias() {
         <img src='https://i.postimg.cc/ryKBDGCT/mongodb-svgrepo-com.png' className='w-14' title='MongoDB' />
         <img src='https://www.nextontop.com/assets/img/services/web/expressjs.svg' className='w-20 bg-white rounded-lg' title='Express' />
         </div>
-        <h3 className='flex justify-center text-xl font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl mt-28'>
+        <h3 className='flex justify-center text-2xl font-bold tracking-tight text-[#FFFFFF] xsm:text-2xl mt-20'>
           Otras Herramientas
         </h3>
-        <div className='flex justify-evenly mt-14 '>
+        <div className='flex justify-evenly mt-14 xsm:mb-10'>
         <FontAwesomeIcon icon={faGithub} size='3x' style={{color: "#000000",}} title='GitHub'/>
         <img src='https://i.postimg.cc/LsyFYrpD/postman-icon-svgrepo-com.png' className='w-12' title='Postman' />
         <img src='https://i.postimg.cc/XYvL9tgD/figma-1-logo.png' className='w-16' title='Figma' />

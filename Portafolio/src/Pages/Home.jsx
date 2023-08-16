@@ -41,10 +41,10 @@ export default function Home() {
             </div>
               <div className="mt-12">
                 <Anchor
-                  to="/about"
+                  to="/sobre-mi"
                   className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white"
                 >
-                  MORE ABOUT ME
+                  Mas Sobre Mi
                 </Anchor>
               </div>
           </div>
