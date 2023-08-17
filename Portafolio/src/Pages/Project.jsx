@@ -1,12 +1,22 @@
 import React from "react";
 import { Link as Anchor } from "react-router-dom";
+import { useEffect, useState } from 'react';
+
 
 export default function Project() {
+
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+      }, []);
+
   return (
     <>
+    <div className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
     <h1 className="flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
           Mis Proyectos
-        </h1>
+    </h1>
       <div className="flex w-full xsm:flex-wrap xxsm:flex-wrap">
         <div className="flex flex-col items-center mt-20">
           <img
@@ -82,6 +92,7 @@ export default function Project() {
           </div>
         </div>
       </div>
+    </div>
     </>
   );
 }

@@ -1,11 +1,21 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3Alt, faJs, faReact, faBootstrap, faNode,faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Tecnologias() {
+
+  
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+      }, []);
+
   return (
     <>
-      <h1 className="flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
+    <div className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
+    <h1 className="flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl">
         Tecnologias
       </h1>
         <h3 className='flex justify-center text-2xl font-bold tracking-tight text-[#FFFFFF] xsm:text-2xl mt-20'>
@@ -38,6 +48,7 @@ export default function Tecnologias() {
         <img src='https://i.postimg.cc/XYvL9tgD/figma-1-logo.png' className='w-16' title='Figma' />
         <img src='https://i.postimg.cc/63Ry7V1p/vscode-svgrepo-com.png' className='w-12' title='VSC' />
         </div>
+    </div>
     </>
   );
 }

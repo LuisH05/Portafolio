@@ -42,7 +42,7 @@ export default function About() {
           Descargar CV
         </a>
       </div>
-      </div>
+    </div>
     </>
   )
 }
