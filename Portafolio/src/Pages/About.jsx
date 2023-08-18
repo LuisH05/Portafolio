@@ -19,7 +19,7 @@ export default function About() {
           <img className="h-60 w-60 rounded-full ring-2 ring-[#03CC90]" src="https://i.postimg.cc/7ZYd01Xp/Luis-Hernandez.png" alt="" />
       </div>
       <div className='flex justify-center mt-10'>
-      <h3 className="text-lg font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl">
+      <h3 className="text-lg font-bold tracking-tight text-[#FFFFFF] xsm:text-5xl text-center ">
         Desarrollador Web Full Stack M.E.R.N.
       </h3>
       </div>
