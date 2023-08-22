@@ -15,7 +15,7 @@ export default function About() {
       <h1 className= 'flex justify-center mt-10 text-4xl font-bold tracking-tight text-[#03CC90] xsm:text-5xl' >
         Sobre Mi
       </h1>
-      <div className="flex items-center justify-center mt-20 xsm:hidden xxsm:hidden space-x-6 lg:space-x-8">
+      <div className="flex items-center justify-center mt-16 xsm:hidden xxsm:hidden space-x-6 lg:space-x-8">
           <img className="h-60 w-60 rounded-full ring-2 ring-[#03CC90]" src="https://i.postimg.cc/7ZYd01Xp/Luis-Hernandez.png" alt="" />
       </div>
       <div className='flex justify-center mt-10'>
