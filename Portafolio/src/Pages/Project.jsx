@@ -18,7 +18,7 @@ export default function Project() {
           Mis Proyectos
     </h1>
       <div className="flex w-full xsm:flex-wrap xxsm:flex-wrap">
-        <div className="flex flex-col items-center mt-20 md:">
+        <div className="flex flex-col items-center mt-20">
           <img
             src="https://i.postimg.cc/zBDZ7VBL/Game-Zone-foto.png"
             alt=""
