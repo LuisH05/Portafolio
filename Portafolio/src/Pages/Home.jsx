@@ -30,12 +30,12 @@ export default function Home() {
             </div>
             <div className='flex pt-20 pb-10 justify-around'>
               <Anchor to='https://github.com/LuisH05' target='_blank' className=''>
-              <img src="https://i.postimg.cc/sx93pTrw/github-142-svgrepo-com.png" className='w-16'/>
+              <img src="https://i.postimg.cc/sx93pTrw/github-142-svgrepo-com.png" className='w-20'/>
               </Anchor>
               <Anchor to='https://www.linkedin.com/in/luisherdez/' target='_blank'>
-              <img src="https://i.postimg.cc/6p8XMWVk/linkedin-svgrepo-com.png"  className='w-16'/>
+              <img src="https://i.postimg.cc/6p8XMWVk/linkedin-svgrepo-com.png"  className='w-20'/>
               </Anchor>
-              <Anchor to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='_blank' className='w-16'>
+              <Anchor to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='_blank' className='w-20'>
               <img src="https://i.postimg.cc/RVTH9zYp/gmail-svgrepo-com-3.png"/>
               </Anchor>
             </div>
