@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
         <div className="flex items-center xsm:hidden xxsm:hidden space-x-6 lg:space-x-8">
-          <img className="h-96 w-96 rounded-full ring-2 ring-[#03CC90]" src="https://i.postimg.cc/7ZYd01Xp/Luis-Hernandez.png" alt="" />
+          <img className="h-2/4 w-96 rounded-full ring-2 object-cover ring-[#03CC90]" src="https://i.postimg.cc/7ZYd01Xp/Luis-Hernandez.png" alt="" />
         </div>
       </div>
     </div>
