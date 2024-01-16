@@ -36,7 +36,7 @@ export default function Example() {
                 <div className="flex flex-shrink-0 items-center">
                 <Anchor to='/' >
                 <img
-                    className="h-10 w-auto rounded-md"
+                    className="h-11 w-auto rounded-md"
                     src="https://i.postimg.cc/vmDgNq0P/Logo-Luis.jpg"
                     alt="Your Company"
                   />
@@ -65,7 +65,6 @@ export default function Example() {
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
