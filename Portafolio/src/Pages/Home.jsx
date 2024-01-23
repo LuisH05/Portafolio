@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <div name="home" className={`${isMounted ? 'opacity-100 transition-opacity duration-1000' : 'opacity-0'}`}>
       {/* container */}
-
       <div className="flex justify-around pt-5 bg-[#353849]">
         <div className=" pt-10 xsm:pb-10 xsm:pt-20 md:pb-10 md:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
@@ -30,19 +29,19 @@ export default function Home() {
             </div>
             <div className='flex pt-20 pb-10 justify-around'>
               <Anchor to='https://github.com/LuisH05' target='_blank' className=''>
-              <img src="https://i.postimg.cc/sx93pTrw/github-142-svgrepo-com.png" className='w-20'/>
+              <img src="https://i.postimg.cc/sx93pTrw/github-142-svgrepo-com.png" className='w-16'/>
               </Anchor>
               <Anchor to='https://www.linkedin.com/in/luisherdez/' target='_blank'>
-              <img src="https://i.postimg.cc/6p8XMWVk/linkedin-svgrepo-com.png"  className='w-20'/>
+              <img src="https://i.postimg.cc/6p8XMWVk/linkedin-svgrepo-com.png"  className='w-16'/>
               </Anchor>
-              <Anchor to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='_blank' className='w-20'>
+              <Anchor to='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new' target='_blank' className='w-16'>
               <img src="https://i.postimg.cc/RVTH9zYp/gmail-svgrepo-com-3.png"/>
               </Anchor>
             </div>
-              <div className="mt-12">
+              <div className="mt-14">
                 <Anchor
                   to="/sobre-mi"
-                  className="inline-block rounded-md border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white"
+                  className="inline-block rounded-lg border border-transparent bg-[#03CC90] px-8 py-3 text-center font-bold font text-black hover:bg-[#03cc90] hover:text-white"
                 >
                   Mas Sobre Mi
                 </Anchor>
